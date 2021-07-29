@@ -1,4 +1,4 @@
-package com.dio.personapi.mapper;
+package com.dio.personapi.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +10,6 @@ public class PersonController {
 
     @GetMapping
     public String getBook(){
-        return "API Testi";
+        return "API Test";
     }
 }
